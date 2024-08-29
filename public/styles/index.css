@@ -1,7 +1,51 @@
 :root{
     color-scheme: light dark;
 }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body{
-    display: grid;
-    place-content: center;
+    font-size: 18px;
+    font-family: monospace;
+}
+.principal__container{
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container__title{
+    margin:20px 0;
+}
+.container__characters{
+    min-width: 200px;
+    min-height: 90px;
+    padding: 10px;
+    background-color: #060747;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+ul{
+    list-style: none;
+}
+li{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+img{
+    border-radius: 10px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    margin-bottom: 20px;
 }
